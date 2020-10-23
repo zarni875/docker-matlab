@@ -5,6 +5,6 @@ metadata: #information about our object we're deploying
 spec: #specifications for our object
   containers:
   - name: zarni-container #the name of the container within the pod
-    image: atanasi/matlab #which container image should be pulled
+    image: uodcvip/matlab #which container image should be pulled
     ports:
     - containerPort: 80 #the port of the container within the pod
